@@ -12,6 +12,19 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.Perro"
         tools:targetApi="31">
+
+        <activity
+            android:name=".MascotasFavoritas"
+            android:exported="false"
+
+            android:parentActivityName=".MainActivity">
+
+            <!-- Soporte para versiones 4.0 o menores -->
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".MainActivity" />
+        </activity>
+
         <activity
             android:name=".MainActivity"
             android:exported="true">

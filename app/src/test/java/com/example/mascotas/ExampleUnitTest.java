@@ -1,4 +1,4 @@
-package com.example.perro;
+package com.example.mascotas;
 
 import org.junit.Test;
 
